@@ -1,4 +1,4 @@
-package com.openai.metropolisitvpatch;
+package src/io/github/jerry5678912/metropolisitvpatch/MetropolisITVPatch.java;
 
 import net.minecraftforge.fml.common.Mod;
 
