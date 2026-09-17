@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+MixinConfigs: mixins.metropolis_itv_patch.json
+Implementation-Title: Metropolis ITV Connector Crash Patch
+Implementation-Version: 1.1.0

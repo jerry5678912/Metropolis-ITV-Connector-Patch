@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="metropolis_itv_patch"
+version="1.1.0"
+displayName="Metropolis ITV Connector Patch"
+authors="Compatibility patch"
+description='''
+Client-side compatibility patch for Metropolis 0.6.0-beta on Minecraft 1.20.1 under Sinytra Connector.
+Replaces the ITV block-entity renderer's Connector-incompatible world tessellation path with a baked-model renderer.
+World/block data are untouched. If the safe renderer cannot initialize, ITV rendering is suppressed instead of crashing the client.
+'''
+
+[[dependencies.metropolis_itv_patch]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.metropolis_itv_patch]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="CLIENT"
