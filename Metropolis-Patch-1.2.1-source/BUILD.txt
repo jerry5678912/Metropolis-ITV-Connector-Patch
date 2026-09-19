@@ -1,0 +1,1 @@
+This source bundle is intentionally dependency-light. Compile-only stubs are used only to verify Java signatures locally and are NOT packaged in the mod JAR. Production Minecraft/Forge/Mixin classes are supplied by the runtime.

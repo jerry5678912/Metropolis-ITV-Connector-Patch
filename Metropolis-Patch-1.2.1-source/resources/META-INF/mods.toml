@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Apache-2.0"
+
+[[mods]]
+modId="metropolis_patch"
+version="1.2.1"
+displayName="Metropolis Patch"
+authors="jerry5678912"
+description='''
+Compatibility and crash fixes for Metropolis on Minecraft 1.20.1 under Sinytra Connector.
+
+- Moves the ITV monitor onto the normal terrain baked-model path, preserving its 16 rotations while allowing normal world lighting/shading and renderer integration.
+- Suppresses Metropolis' old manual ITV block-entity renderer path.
+- Prevents Security Door destruction from reading the HALF property from air or another invalid counterpart state during transient multiplayer updates.
+
+Replaces the old Metropolis ITV Connector Patch. Do not install both.
+'''
+
+[[dependencies.metropolis_patch]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.metropolis_patch]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
